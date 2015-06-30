@@ -1,15 +1,15 @@
 {
-  "name": "zsh-autocompletion-npm-run",
+  "name": "npm-run.plugin.zsh",
   "version": "1.0.0",
   "description": "Autocompletion support for `npm run scripts`.",
   "author": "André König <andre.koenig@posteo.de>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "DEST=$HOME/.zsh-autocompletion-npm-run; mkdir -p $DEST && ln -fs \"$PWD/zsh-autocompletion-npm-run.zsh\" $DEST/zsh-autocompletion-npm-run.zsh && echo source $DEST/zsh-autocompletion-npm-run.zsh >> $HOME/.zshrc && echo \"All done! Please restart your zsh.\n\n\""
+    "postinstall": "DEST=$HOME/.npm-run.plugin.zsh; mkdir -p $DEST && ln -fs \"$PWD/npm-run.plugin.zsh\" $DEST/npm-run.plugin.zsh && echo source $DEST/npm-run.plugin.zsh >> $HOME/.zshrc && echo \"All done! Please restart your zsh.\n\n\""
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/akoenig/zsh-autocompletion-npm-run"
+    "url": "git://github.com/akoenig/npm-run.plugin.zsh"
   },
   "keywords": [
     "zsh",
@@ -18,7 +18,7 @@
     "npm"
   ],
   "bugs": {
-    "url": "https://github.com/akoenig/zsh-autocompletion-npm-run/issues"
+    "url": "https://github.com/akoenig/npm-run.plugin.zsh/issues"
   },
-  "homepage": "https://github.com/akoenig/zsh-autocompletion-npm-run"
+  "homepage": "https://github.com/akoenig/npm-run.plugin.zsh"
 }
