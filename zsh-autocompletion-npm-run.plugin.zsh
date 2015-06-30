@@ -1,1 +1,0 @@
-zsh-autocompletion-npm-run.zsh
