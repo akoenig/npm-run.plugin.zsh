@@ -1,3 +1,3 @@
-# UNRELEASED
+# 1.0.0 (2015-06-30)
 
-  * initial release
+  * Possibility for complete all `scripts` from a `package.json`.
