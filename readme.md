@@ -1,4 +1,4 @@
-# zsh-autocompletion-npm-run
+# npm-run.plugin.zsh
 
 > Autocompletion support for `npm run`.
 
@@ -8,24 +8,24 @@ Install with npm or manually.
 
 ### Via npm
 
-    $ npm install -g zsh-autocompletion-npm-run
+    $ npm install -g npm-run.plugin.zsh
 
 After that you have to restart your `zsh`.
 
 ### Manually
 
-1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/zsh-autocompletion-npm-run`)
+1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/npm-run.plugin.zsh`)
 2. `source` the file in your `.zshrc`
 3. Restart your `zsh`
 
 ```sh
 # Your .zshrc
-source $HOME/zsh-extensions/zsh-autocompletion-npm-run/zsh-autocompletion-npm-run.zsh
+source $HOME/zsh-extensions/npm-run.plugin.zsh/npm-run.plugin.zsh
 ```
 
 ### Via antigen
 
-    $ antigen bundle akoenig/zsh-autocompletion-npm-run
+    $ antigen bundle akoenig/npm-run.plugin.zsh
 
 ## Usage
 
