@@ -1,0 +1,24 @@
+{
+  "name": "zsh-autocompletion-npm-run",
+  "version": "1.0.0",
+  "description": "Autocompletion support for `npm run scripts`.",
+  "author": "André König <andre.koenig@posteo.de>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "DEST=$HOME/.zsh-autocompletion-npm-run; mkdir -p $DEST && ln -fs \"$PWD/zsh-autocompletion-npm-run.zsh\" $DEST/zsh-autocompletion-npm-run.zsh && echo source $DEST/zsh-autocompletion-npm-run.zsh >> $HOME/.zshrc && echo \"All done! Please restart your zsh.\n\n\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akoenig/zsh-autocompletion-npm-run"
+  },
+  "keywords": [
+    "zsh",
+    "shell",
+    "autocompletion",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/akoenig/zsh-autocompletion-npm-run/issues"
+  },
+  "homepage": "https://github.com/akoenig/zsh-autocompletion-npm-run"
+}
