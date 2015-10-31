@@ -12,6 +12,10 @@ Install with npm or manually.
 
 After that you have to restart your `zsh`.
 
+### The ZSH way
+
+Dump `functions/_npm` anywhere in your `$FPATH`.
+
 ### Manually
 
 1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/npm-run.plugin.zsh`)
