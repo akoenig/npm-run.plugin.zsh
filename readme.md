@@ -12,6 +12,8 @@ Install with npm or manually.
 
 After that you have to restart your `zsh`.
 
+**Important note:** `npm-run.plugin.zsh` utilizes `GNU Grep` under the hood. Please make sure that you have the _GNU Command Line Tools_ installed.
+
 ### Manually
 
 1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/npm-run.plugin.zsh`)
